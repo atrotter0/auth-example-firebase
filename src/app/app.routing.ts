@@ -1,6 +1,7 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PublicComponent } from './public/public.component';
+import { PrivateComponent } from './private/private.component';
 
 const appRoutes: Routes = [
   {
@@ -10,6 +11,10 @@ const appRoutes: Routes = [
   {
     path: 'public',
     component: PublicComponent
+  },
+  {
+    path: 'private',
+    component: PrivateComponent
   }
 ];
 
